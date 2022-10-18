@@ -1,0 +1,38 @@
+<#f0f000>UNIQUE ATTACKS</>
+Shoulder Throw									[_B/_F]_+^2P
+Knees of Hades									[_B/_F]_+^2K
+
+<#f0f000>SPECIAL MOVES</>
+Hurricane Upper_EX								_B_DB_D_DF_F^P
+Slash Kick_EX									_B_DB_D_DF_F^K
+Tiger Kick_EX									_F_D_DF^K
+Golden Heel_EX									_D_DB_B^K
+TNT Punch_EX									^P^P^P^P
+_!Dynamite Fist									_D_DF_F^LP / ^MP
+_!Dynamite Upper								_D_DF_F^HP
+
+<#f0f000>SUPER COMBOS</>
+Screw Upper_MAX									_D_DF_F_D_DF_F^P
+Explode Hurricane Tiger Heel_MAX				_D_DF_F_DF_D_DB_B^P
+Golden Tiger Kick_MAX							_D_DF_F^K
+
+<#f0f000>LEVEL 3 SUPER COMBOS</>
+Double Cyclone									_D_DB_B_D_DB_B^P
+
+<#f0f000>SYSTEM</>
+Forward Dash									_F_F
+_!Run											(hold)_F
+Back Dash										_B_B
+High Jump										_TAP_D_U
+Hop												_TAP_U
+Hyper Hop										_TAP_D_TAP_U
+Parry											_TAP_F/_TAP_D
+Roll											[_B/_F]_+^LK+^LP
+Sidestep										^LK+^LP
+_!Sidestep Attack								^P/^K
+Power Charge									^MK_+^MP
+Custom Combo									(air also)^HK_+^HP
+Guard Cancel High								(while guarding)_F_+^2P
+Guard Cancel Low								(while guarding)_F_+^2K
+Fall Recovery									(when allowed)^P/^K
+Taunt											^S

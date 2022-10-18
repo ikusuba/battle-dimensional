@@ -1,6 +1,6 @@
                             _______________________________________
 ===========================| Joe Higashi by Jmorphman              |===========================
-                            ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯           [12.31.19]
+                            ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½           [12.31.19]
 
  - Contact:	Jmorphman@gmail.com
  - Website:	http://network.mugenguild.com/jmorphman/
@@ -41,7 +41,7 @@
 .Slash Kick (EX):                  	B, DB, D, DF, F, k
 .Tiger Kick (EX):         	   	F, D, DF, k
 .Golden Heel (EX):                 	D, DB, B, k
-.TNT Punch (EX):                   	p, p, p, p
+.TNT Punch (EX):                   	^P^P^P^P
     .Dynamite Fist:                	D, DF, F, x / y   
     .Dynamite Upper:               	D, DF, F, z   
 
