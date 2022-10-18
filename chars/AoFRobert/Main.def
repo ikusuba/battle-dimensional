@@ -3,25 +3,26 @@
 
 ; Player information
 [Info]
-name ="Robert Garcia"
-displayName ="Robert Garcia"
-lifebarName="Robert"
-versionDate =04,14,2002
-mugenVersion =1.0
-ikemenVersion = 0.98.2
-author ="DGO&DivineWolf"
-pal.defaults = 4,5,6,1,2,3,10,11,12,7,8,9
+name 			= "Robert Garcia"
+displayName 	= "Robert Garcia"
+lifebarName		= "Robert"
+versionDate 	= 04,14,2002
+mugenVersion 	= 1.0
+ikemenVersion 	= 0.98.2
+author 			= "DGO&DivineWolf"
+pal.defaults 	= 4,5,6,1,2,3,10,11,12,7,8,9
 
 ; Files for the player
 [Files]
+anim    = Animations/Anim.air
+movelist= Movelists/Default.dat
+sound   = Sounds/Sound.snd
+sprite  = Sprites/Default.sff
 cmd     = Core.cmd
 cns     = States/System.cns
+stCommon= common1.cns
+cmd     = Core.cmd
 st      = States/System.cns
-stcommon= common1.cns
-sprite  = Sprites/Default.sff
-anim    = Animations/Anim.air
-sound   = Sounds/Sound.snd
-movelist= Movelists/Default.dat
 st1		= States/Normal.cns
 st2		= States/Specials.cns
 st3		= States/Helpers.cns
