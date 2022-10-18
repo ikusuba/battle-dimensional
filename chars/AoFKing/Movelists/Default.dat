@@ -1,23 +1,23 @@
 <#f0f000>UNIQUE ATTACKS</>
 Sliding Kick					_DF_+^HK
-Hold Rush				        (near)[_F/_B]_+^2P
-Hook Buster				        (near)[_F/_B]_+^2K		
+Hold Rush						(near)[_F/_B]_+^2P
+Hook Buster						(near)[_F/_B]_+^2K
 
 <#f0f000>SPECIAL MOVES</>
-Venom Strike			        _D_DF_F^K
-Double Strike_EX			    _D_DF_F^2K
-Surprise Rose_EX			    _F_D_DF^K
-Trap Shot_EX		            _B_D_DB^K
-Tornado Kick_EX		            _F_DF_D_DB_B^K
-Mirage Kick_EX		            _D_DB_B^P
+Venom Strike					_D_DF_F^K
+Double Strike_EX				_D_DF_F^2K
+Surprise Rose_EX				_F_D_DF^K
+Trap Shot_EX					_B_D_DB^K
+Tornado Kick_EX					_F_DF_D_DB_B^K
+Mirage Kick_EX					_D_DB_B^P
 
 <#f0f000>SUPER COMBOS</>
-Illusion Dance_MAX			    _D_DF_F_DF_D_DB_B^K
+Illusion Dance_MAX				_D_DF_F_DF_D_DB_B^K
 Silent Flash_MAX				_D_DB_B_D_DB_B^K
-Phantom Strike_MAX			    _D_DF_F_D_DF_F^P
+Phantom Strike_MAX				_D_DF_F_D_DF_F^P
 
 <#f0f000>LEVEL 3 SUPER COMBOS</>
-Secret Mirage				    _F_B_DB_D_DF_F^2K
+Secret Mirage					_F_B_DB_D_DF_F^2K
 
 <#f0f000>SYSTEM</>
 Forward Dash					_F_F
@@ -36,3 +36,4 @@ Guard Cancel High				(while guarding)_F_+^2P
 Guard Cancel Low				(while guarding)_F_+^2K
 Fall Recovery					(when allowed)^P/^K
 Taunt							^S
+

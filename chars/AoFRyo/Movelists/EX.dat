@@ -1,38 +1,38 @@
 <#f0f000>UNIQUE ATTACKS</>
-Hyochu Wari						            _F_+^MP
-Kabuto Wari						            [_B/_F]_+^2P
-Tomoe Nage						            [_B/_F]_+^2K
+Hyochu Wari						_F_+^MP
+Kabuto Wari						[_B/_F]_+^2P
+Tomoe Nage						[_B/_F]_+^2K
 
 <#f0f000>SPECIAL MOVES</>
-Ko'oken_EX						            _D_DF_F^P
-Koho_EX							            _F_D_DF_+^P
-Hien Shippukyaku_EX				            (charge)_DB_F^K
-Zanretsuken_EX					            _F_B_F^P
-Kyokugenryu Renbuken_EX			            _F_DF_D_DB_B_+^P
-Moko Raijinsetsu_EX				            _B_D_DB^P
+Ko'oken_EX						_D_DF_F^P
+Koho_EX							_F_D_DF_+^P
+Hien Shippukyaku_EX				(charge)_DB_F^K
+Zanretsuken_EX					_F_B_F^P
+Kyokugenryu Renbuken_EX			_F_DF_D_DB_B_+^P
+Moko Raijinsetsu_EX				_B_D_DB^P
 
 <#f0f000>SUPER COMBOS</>
-Haoh Shokoken_MAX				            _F_B_DB_D_DF_F^P
-Ryuko Ranbu_MAX					            _D_DF_F_DF_D_DB_B^P
-Tenchi Haohken_MAX				            _D_DF_F_D_DF_F^P
+Haoh Shokoken_MAX				_F_B_DB_D_DF_F^P
+Ryuko Ranbu_MAX					_D_DF_F_DF_D_DB_B^P
+Tenchi Haohken_MAX				_D_DF_F_D_DF_F^P
 
 <#f0f000>LEVEL 3 SUPER COMBOS</>
-Retsu Ryuko Ranbu				            _D_DF_F_DF_D_DB_B^2K
+Retsu Ryuko Ranbu				_D_DF_F_DF_D_DB_B^2K
 
 <#f0f000>SYSTEM</>
-Forward Dash					            _F_F
-_!Run							            (hold)_F
-Back Dash						            _B_B
-High Jump						            _TAP_D, _U
-Hop								            _TAP_U
-Hyper Hop						            _TAP_D, _TAP_U
-Parry							            _TAP_F / _TAP_D
-Roll							            [_B/_F]_+^LK+^LP
-Sidestep						            ^LK+^LP
-_!Sidestep Attack				            ^P/^K
-Power Charge					            ^MK_+^MP
-Custom Combo					            (air also) ^HK_+^HP
-Guard Cancel High				            (while guarding)_F_+^2P
-Guard Cancel Low				            (while guarding)_F_+^2K
-Fall Recovery					            (when allowed)^P/^K
-Taunt							            ^S
+Forward Dash					_F_F
+_!Run							(hold)_F
+Back Dash						_B_B
+High Jump						_TAP_D, _U
+Hop								_TAP_U
+Hyper Hop						_TAP_D, _TAP_U
+Parry							_TAP_F / _TAP_D
+Roll							[_B/_F]_+^LK+^LP
+Sidestep						^LK+^LP
+_!Sidestep Attack				^P/^K
+Power Charge					^MK_+^MP
+Custom Combo					(air also) ^HK_+^HP
+Guard Cancel High				(while guarding)_F_+^2P
+Guard Cancel Low				(while guarding)_F_+^2K
+Fall Recovery					(when allowed)^P/^K
+Taunt							^S
