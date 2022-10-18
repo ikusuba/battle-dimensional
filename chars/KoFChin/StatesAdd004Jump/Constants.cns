@@ -1,0 +1,103 @@
+;***************************************************************************;
+;***************************************************************************;
+; CVS Chin Gentsai POTS/Infinite by Falcon Rapper
+;***************************************************************************;
+;***************************************************************************;
+; "Porque o guerreiro de fé nunca gela" by: Racionais mc's
+;***************************************************************************;
+;***************************************************************************;
+
+;--------------------------------------------------------------------------------------
+;======================================================================================
+;Constants
+;======================================================================================
+[Data]
+life = 1000			
+attack = 100		
+defence = 100		
+fall.defence_up = 50	
+liedown.time = 50		
+airjuggle = 0		
+sparkno = s8010			
+guard.sparkno = s8000	
+KO.echo = 0			
+volumescale = 100			
+IntPersistIndex = 0	
+FloatPersistIndex = 0 
+
+[Size]
+xscale           = 1
+yscale           = 1
+ground.back      = 15
+ground.front     = 16
+air.back         = 12
+air.front        = 12
+height           = 60
+attack.dist      = 160
+proj.attack.dist = 90
+proj.doscale     = 0
+head.pos         = 0, -90
+mid.pos          = 0, -60
+shadowoffset     = 0
+draw.offset      = 0,0
+
+[Velocity]
+walk.fwd = 2.4
+walk.back = -2.1
+run.fwd = 6.4526, 0
+run.back = -5.725,-3.5
+jump.neu = 0, -9.9275
+jump.fwd = 3.31275
+jump.back = -3.1275
+runjump.fwd = 5.21745, -10.275
+runjump.back = -5.21745, -10.275
+airjump.neu = 0,-9.1     
+airjump.back = -2.55      
+airjump.fwd = 2.5         
+
+[Movement]
+airJump.num = 0
+airJump.height = 0
+yaccel = 0.48275
+stand.friction = 0.85
+crouch.friction = 0.82
+stand.friction.threshold = 1.0
+crouch.friction.threshold = 1.0
+air.gethit.groundLevel = 25
+air.gethit.groundRecover.ground.threshold = -20
+air.gethit.groundRecover.groundLevel = 10
+air.gethit.airRecover.threshold = -1
+air.gethit.airRecover.yAccel = 0.35
+air.gethit.trip.groundLevel = 15
+down.bounce.offset = 0, 20
+down.bounce.yAccel = 0.4
+down.bounce.groundLevel = 12
+down.friction.threshold = 0.5
+
+[Quotes]
+victory0 = "Ugh. Whoo! That was close. Feel like doing it again?";2k2
+victory1 = "Effort may not always pay off. But it works for me, loser!"
+victory2 = "What's that ? Want some more of me?"
+victory3 = "It's your era now... Don't screw it up!";2k1
+victory4 = "Hmm. This win gladdens me all over."
+victory5 = "Life's a wild mare, but endurance makes it tame."
+victory6 = "Whew! I'm beat! Wish I were a Striker!";2k
+victory7 = "How about that, kid? I still got the stuff!";99
+victory8 = "O, ouch! Whew! I can beat you. But age is something different!";98
+victory9 = "This meeting was destined. How 'bout a swig? It's choice!";96
+victory10 = "Winning is tough, like the old beef jerky in my pocket."
+victory11 = "Pwaah! After that, I really need this!"
+victory12 = "Geez, you looked bad, but your fighting skills were worse!";95
+victory13 = "To make things easier, next time I'll fight drunk!"
+victory14 = "You need a lot more work. Go back to the gym, tadpole!"
+victory15 = "The occasional babe's nice, but I get my kicks from training.";Vs Athena
+victory16 = "(Spirit of the Dragon?... You've gotta be kidding me!)"; vs. Kensou
+victory17 = "Hmmm. I'll be keeping my eye on your future, kid."; vs Bao
+victory18 = "You disgrace justice. Get help before you're lost.";vs. Korea Team
+victory19 = "Evil deeds make evil souls.";vs Nests
+victory20 = "I'm stronger when I'm drunk!"; (vs. Japan Team)
+victory21 = "You need more training!"; FF
+victory22 = "I am too old for this."; AOF
+victory23 = "Sake is the best! Want some?" ; Ikari
+victory24 = "My wife will scold me again!"; Womans
+victory25 = "You were beaten by an old man!";USA

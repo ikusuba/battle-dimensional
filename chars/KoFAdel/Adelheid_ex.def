@@ -1,0 +1,42 @@
+; _______________________________________________
+;| Adelheid by Saikou Shiva |
+; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+;====================<DEFINITION>====================
+
+[Info]
+name="Adelheid Bernstein"
+displayName="Adelheid Bernstein (EX)"
+lifebarname="Adelheid"
+versionDate=06,17,2022
+mugenVersion=1.0
+ikemenversion = 0.98.2
+author="Saikou Shiva"
+pal.defaults=4,5,7,11
+localCoord=320,240
+
+[Files]
+cmd=Command.cmd
+cns=Constants.cns
+st=States/System.st
+stCommon=common1.cns
+sprite=Sprite.sff
+anim=Anim.air
+sound=Sound.snd
+movelist = movelist.dat
+
+pal1=Palettes/act015.act
+pal2=Palettes/act016.act
+pal3=Palettes/act017.act
+pal4=Palettes/act018.act
+pal5=Palettes/act013.act
+pal6=Palettes/act014.act
+
+st1=States/Normal.st
+st2=States/Special.st
+st3=States/Super.st
+st4=States/Helpers.st
+st5=States/Adelheid_ex.st
+	
+[Arcade]
+intro.storyBoard= 
+ending.storyBoard=

@@ -1,0 +1,55 @@
+; _____________________________________
+;| K' by Chazzanova & Dampir           |
+; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+;====================<DEFINITION>====================
+[Info]
+name        = "K'"
+displayName = "K'"
+versionDate = 09, 13, 2015
+mugenversion= 1.0
+ikemenversion = 0.98.2
+author      = "Chazzanova & Dampir"
+pal.defaults= 1,2,3,4,5,6,7,8,9,10,11,12
+
+[Files]
+cmd	= Command.cmd
+cns	= Constants.cns
+st	= States/System.st
+st1	= States/Normal.st
+st2	= States/Special.st
+st3	= States/Super.st
+st4	= States/Helpers.st
+stcommon	= common1.cns
+sprite	= Sprite.sff
+anim	= Anim.air
+sound	= Sound.snd
+pal1	= Palettes/Default.act
+pal2	= Palettes/Gognos_WhiteLeather.act
+pal3	= Palettes/sabockee_Custom7.act
+pal4	= Palettes/Flowrellik_T4Jin.act
+pal5	= Palettes/Flowrellik_PurpleChillpill.act
+pal6	= Palettes/Knuckles8864_Ezreal.act
+pal7	= Palettes/R@CEAKIR@_K'Ichimonji.act
+pal8	= Palettes/sabockee_Custom4.act
+pal9	= Palettes/Girard_PurpleLeather.act
+pal10	= Palettes/R@CEAKIR@_K'LeanGreen.act
+pal11	= Palettes/TheFisherKing_Custom1.act
+pal12	= Palettes/Flowrellik_Kula63.act
+	
+[Palette Keymap]
+a = 4
+b = 5
+c = 6
+x = 1
+y = 2
+z = 3
+a2 = 10
+b2 = 11
+c2 = 12
+x2 = 7
+y2 = 8
+z2 = 9
+
+;[Arcade]
+;intro.storyBoard = intro.def
+;ending.storyBoard = ending.def

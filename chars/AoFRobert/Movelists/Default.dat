@@ -1,0 +1,38 @@
+<#f0f000>UNIQUE ATTACKS</>
+Kubikiri Nage					            [_B/_F]_+^2P                   
+Ryuuchou Kyaku					            [_B/_F]_+^2K            
+Kouryuu Koukyaku Geri					    _F_+^MK                   
+Ryuu Hanshuu					            _F_+^HK
+Nidan Sokutou Geri					        _DF_+^MK
+
+<#f0f000>SPECIAL MOVES</>
+Ryuugeki Ken_EX					            _D_DF_F_+^P
+Ryuuga_EX					                _F_D_DF_+^P
+Gen'ei Kyaku_EX					            _F_B_F_+^K
+Kyokugen Renbu Kyaku_EX					    _B_DB_D_DF_F_+^K
+Hien Senpuu Kyaku_EX					    _F_DF_D_DB_B_+^K
+
+<#f0f000>SUPER COMBOS</>
+Haoh Shokoken_MAX					        _F_B_DB_D_DF_F_+^P
+Ryuko Ranbu_MAX					            _D_DF_F_D_DB_B_+^P
+
+<#f0f000>LEVEL 3 SUPER COMBOS</>
+Zetsu Ryuko Ranbu					        _D_DF_F_D_DB_B_+^2K
+
+<#f0f000>SYSTEM</>
+Forward Dash					            _F_F
+_!Run							            (hold)_F
+Back Dash						            _B_B
+High Jump						            _TAP_D, _U
+Hop								            _TAP_U
+Hyper Hop						            _TAP_D, _TAP_U
+Parry							            _TAP_F / _TAP_D
+Roll							            [_B/_F]_+^LK+^LP
+Sidestep						            ^LK+^LP
+_!Sidestep Attack				            ^P/^K
+Power Charge					            ^MK_+^MP
+Custom Combo					            (air also) ^HK_+^HP
+Guard Cancel High				            (while guarding)_F_+^2P
+Guard Cancel Low				            (while guarding)_F_+^2K
+Fall Recovery					            (when allowed)^P/^K
+Taunt							            ^S

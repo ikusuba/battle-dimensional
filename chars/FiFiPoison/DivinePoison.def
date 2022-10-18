@@ -1,0 +1,45 @@
+; Definition file for Poison
+; Contains all the filenames needed for the character
+
+; Player information
+[Info]
+name ="Poison"
+displayname ="Poison"
+versiondate=2,14,2012
+mugenversion=06,14,2003
+ikemenversion = 0.98.2
+author="DivineWolf"
+Pal.Defaults=4,5,6,1,2,3,10,11,12,7,8,9
+
+[Files]
+cmd=DivinePoison.cmd
+cns=Coding/System.cns
+st=Coding/System.cns
+stcommon=common1.cns
+sprite=DivinePoison.sff
+anim=DivinePoison.air
+sound=DivinePoison.snd
+pal1=Colors/LEON_Custom3.act
+pal2=Colors/Froz_BNHA_Midnight.ACT
+pal3=Colors/AltherPrimus_AgentofEvil.act
+pal4=Colors/MCX_Default.act
+pal5=Colors/AltherPrimus_RemixedHeart.act
+pal6=Colors/davismaximus_SteamPunk.act
+pal7=Colors/davismaximus_Contagion.act
+pal8=Colors/MCX_Custom.act
+pal9=Colors/LEON_Custom4.act
+pal10=Colors/MCX_AltDefault.act
+pal11=Colors/LEON_Custom1.act
+pal12=Colors/LEON_Custom6.act
+st1=Coding/Normal.cns
+st2=Coding/Helpers.cns
+st3=Coding/Special.cns
+st4=Coding/Super.cns
+st5=Coding/Custom.cns
+st6=Coding/tinybuffering.txt
+
+
+[Arcade]
+intro.storyboard=
+ending.storyboard=
+

@@ -1,0 +1,54 @@
+; Definition file for Clark Still
+; Contains all the filenames needed for the character
+
+; Player information
+[Info]
+name ="Clark"
+displayname ="Clark"
+versiondate =04,14,2002
+mugenversion =1.0
+author ="Cruz"
+;AI ="Finola"; edited by RagingRowen
+pal.defaults = 4,5,6,1,2,3,10,11,12,7,8,9
+
+; Files for the player
+[Files]
+cmd     =ClarkEasy.cmd
+cns     =Coding/System.cns
+st      =Coding/System.cns
+stcommon =common1.cns
+sprite  =Clark.sff
+anim    =Clark.air
+sound   =Clark.snd
+pal1=Colors/RowenDefault.act
+pal2=Colors/002.act
+pal3=Colors/003.act
+pal4=Colors/004.act
+pal5=Colors/005.act
+pal6=Colors/006.act
+pal7=Colors/007.act
+pal8=Colors/008.act
+pal9=Colors/009.act
+pal10=Colors/010.act
+pal11=Colors/011.act
+pal12=Colors/012.act
+
+st1=Coding/Normal.cns
+st2=Coding/Specials.cns
+st3=Coding/Helpers.cns
+st4=Coding/SupersEasy.cns
+st5=Coding/tinybuffering.txt
+
+[Palette Keymap]
+a = 4
+b = 5
+c = 6
+x = 1
+y = 2
+z = 3
+a2 = 10
+b2 = 11
+c2 = 12
+x2 = 7
+y2 = 8
+z2 = 9

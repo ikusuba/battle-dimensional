@@ -1,0 +1,63 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name ="Kula Diamond"
+displayname ="Kula Diamond"
+lifebarname ="Kula"
+versiondate =07,18,2010
+mugenversion =1.0
+ikemenversion = 0.98.2
+author ="MC2"
+pal.defaults =1,4,7
+
+[Files]
+sprite =Media\KulaCropped.sff
+anim =Media\kula.air
+sound =Media\kula.snd
+cmd =Code\Kula.cmd
+cns =Code\Kula.cns
+stcommon =common1.cns
+st =Code\Kula.cns
+pal1=Palettes\Default.act
+pal2=Palettes\Red.act
+pal3=Palettes\Green.act
+pal4=Palettes\Kirishima.act
+pal5=Palettes\Black.act
+pal6=Palettes\CC.act
+st1=Code\Basics.cns
+st2=Code\Specials.cns
+st3=Code\EX.cns
+st4=Code\Supers.cns
+st5=Code\ETC.cns
+;pal2=Palettes\C.act
+;pal3=Palettes\D.act
+;pal4=Palettes\Test.act
+;pal5=Palettes\K'.act
+;pal6=Palettes\Maxima.act
+;pal7=Palettes\ohnothing.act
+;pal8=Palettes\Ash.act
+;pal9=Palettes\2000promoart.act
+;pal10=Palettes\2002umpromoart.act
+;pal11=Palettes\Candy.act
+;pal12=Palettes\Frozen.act
+
+[Palette Keymap]
+a  = 4
+b  = 2
+c  = 3
+x  = 1
+y  = 5
+z  = 6
+a2 = 7
+b2 = 8
+c2 = 9
+x2 = 10
+y2 = 11
+z2 = 12
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

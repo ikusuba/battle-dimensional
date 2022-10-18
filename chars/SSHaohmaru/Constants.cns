@@ -1,0 +1,235 @@
+;====================<VARIABLE LIST>====================
+
+;var(3)  : Jump Type (0 = Normal; 1 = Low Jump; 2 = Long Low Jump; 3 = Long Jump)
+;var(4)  : Chain Combo (0 = Off; 1 = On)
+;var(5)  : Command Cancel Flag
+;var(6)  : Cancel Flag
+;var(7)  : Super Cancel Flag
+;var(8)  : Hyper Cancel Flag
+;var(9)  : Counter Flag
+;var(10) : Button Detect (0 = Light; 1 = Medium; 2 = Heavy)
+;var(11) : EX Senpuu Retsu Zan Juggle Flag (0 = Can't juggle; 1 = Can juggle)
+;var(12) : Gou Ha Juggle Flag (0 = Can't juggle; 1 = Can juggle)
+;var(13) : Hit Count
+;var(14) : 
+;var(15) : Juggle Points
+;var(16) : Juggle Flag
+;var(17) : Ticks UnGuardable
+;var(18) : ProjContact (0 = No; 1 = Yes)
+;var(19) : Throw Escape
+;var(20) : Custom Combo Time
+;var(21) : Super Cancel Flag
+;var(22) : Hyper Cancel Flag
+;var(23) : Super Finish Type (900 = Custom Combo; 3000 = Tenha Fuujin Zan; 3100 = Ikari Bakuhatsu; 3150 = Issen; 3200 = Tenha Seiou Zan)
+;var(24) : Issen Damage
+;var(25) : Ticks to Apply EX FX
+;var(26) : Ticks Unable to Walk
+;var(27) : Tenha Hashin Ken Juggle Flag (0 = Can't juggle; 1 = Can juggle)
+;var(28)
+;var(29)
+;var(30) : Hit Detection
+;var(31) : Hit Sound (0 = Light Punch; 1 = Medium Punch; 2 = Heavy Punch; 3 = Light Kick; 4 = Medium Kick; 5 = Heavy Kick; 6 = Projectile Hit; 800 = Grab)
+;var(32) : Guard Sound
+;var(33) : Hit Spark (8010 = Light; 8011 = Medium; 8012 = Heavy; 8013 = Special; 8014 = Super)
+;var(34) : Guard Spark (8000 = Normal; 8001 = Special)
+;var(35) : Spark xPos
+;var(36) : Spark yPos
+;var(38) : Throw (0 = Allowed; 1 = Not Allowed)
+;var(39) : Projectile Flag (0 = Off; 1 = On)
+;var(40) : Mode (0 = Normal; 1 = Rasetsumaru)
+;var(41) : Rage (0 = Off; 1 = On)
+;var(42) : KO Sound
+
+
+;var(45) : Rage Meter Amount
+;var(46) : Life
+;var(47) : Damage Taken (Rage Bar)
+;var(48) : Hits Taken
+
+;var(50) : Rage Meter Enabler (0 = Off; 1 = On)
+;var(51) : Rage Meter X axis
+;var(52) : Rage Meter Y axis
+
+
+;var(55) : Rage Disabler
+
+;var(58) : Game Time
+
+;fvar(5) : Amount of Corner Push
+;fvar(10): Damage Dampener
+;fvar(11): Damage Dampener with Counter Multiplier Added
+
+
+
+; ________________________________________________
+;| Haohmaru by KarmaCharmeleon		|
+; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+;====================<CONSTANTS>====================
+[Data]
+life = 980
+power = 3000
+attack = 100
+defence = 100
+fall.defence_up = 50
+lieDown.time = 30
+airJuggle = 15
+sparkNo = s8010
+guard.sparkNo = s8000
+KO.echo = 0
+volume = 128
+IntPersistIndex = 0
+FloatPersistIndex = 0
+
+[Size]
+xScale = 1
+yScale = 1
+ground.back = 18
+ground.front = 18
+air.back = 18
+air.front = 18
+height = 68
+attack.dist = 160
+proj.attack.dist = 90
+proj.doScale = 0
+head.pos = -5, -75
+mid.pos = -12, -46
+shadowOffset = -1
+draw.offset = 0,0
+
+[Velocity]
+walk.fwd = 2.79329608939
+walk.back = -2.09497206704
+run.fwd = 5.16759776536, 0
+run.back = -5.02793296089, 0
+jump.neu = 0, -10
+jump.fwd = 4.60893854749
+jump.back = -4.74860335196
+runJump.fwd = 6.91340782123, -11.4999961853
+runJump.back = -7.12290502793, -11.4999961853
+airjump.neu = 0, -6.5
+airjump.back = -2.8
+airjump.fwd = 2.8
+
+[Movement]
+airJump.num = 0
+airJump.height = 0
+yAccel = 0.53100585937
+stand.friction = 0.85
+crouch.friction = 0.82
+stand.friction.threshold = 1.0
+crouch.friction.threshold = 1.0
+air.gethit.groundLevel = 25
+air.gethit.groundRecover.ground.threshold = -20
+air.gethit.groundRecover.groundLevel = 10
+air.gethit.airRecover.threshold = -1
+air.gethit.airRecover.yAccel = 0.35
+air.gethit.trip.groundLevel = 15
+down.bounce.offset = 0, 20
+down.bounce.yAccel = 0.4
+down.bounce.groundLevel = 12
+down.friction.threshold = 0.5
+
+
+;====================<WINQUOTES>====================
+[Quotes]
+
+
+;====================<HAOHMARU WINQUOTES>====================
+victory0 = "Yesss! Not a bad finish, huh?! I must say, I amaze myself sometimes!"
+victory1 = "Not bad. I'd say you're the second best in the world. Let's do this again sometime!"
+victory2 = "I won't settle for anything less than number one. What, you thought I was done already?!"
+victory3 = "Heh... Did you really think you could beat me with that? That was barely even worth my time!"
+victory4 = "Eyarrgh! Now we're talkin'! Such strength! I think i might be falling for you!"
+victory5 = "My strength is second to none. Think about that as you take your dying breath!"
+victory6 = "When? Where? How? WHY? Humph! Who cares! Let's fight!"
+victory7 = "You've got to fight, for the right, to live!"
+victory8 = "Warriors have gathered from all over the world!"
+victory9 = "Usssssssyaaaaaaaaaa!! I won!!"
+victory10 = "Enjoy yourself in the afterlife!"
+victory11 = "Listen up... I'm the strongest man in the universe!"
+victory12 = "Nobody who dares to face me lives for very long!"
+victory13 = "Don't you want to be a stain on my sword? Ha ha ha!"
+victory14 = "I am the peerless hero Haohmaru! Hear me from afar; see me near. ...Even I don’t get what I said."
+victory15 = "How many victims do you make? The way of the samurai is harsh; you don’t get many karma points."
+victory16 = "You've seen my swordplay. True, I did win. But I feel so cheap."
+victory17 = "No weapon? Tough luck! That's the samurai way!"
+
+;Basara
+victory18 = "That sure was creepy, but it's not everyday I get to fight a ghost. It was... a valuable experience."
+
+;Charlotte
+victory19 = "Your swordsmanship is as skittish as you are. I gotta admit, I kinda like your type of fighter."
+
+;Darli
+victory20 = "What a huge saw! I don't mind throwing down with you, but how about building me a ship next time?"
+
+;Earthquake
+victory21 = "You're much too bulky to avoid my blade! Come back and try again after you've slimmed down!"
+
+;Galford
+victory22 = "So you're supposed to be a Western ninja? Impressive... I must admit, I enjoyed our little fight."
+
+;Genjuro
+victory23 = "You swing your sword with a bloodthirsty rage, as always. But rage alone isn't enough to defeat me!"
+
+;Hanzo Hattori
+victory24 = "So you fight by enveloping your opponent in smoke. Such tricks won't work on me, I'm afraid."
+
+;Haohmaru
+victory25 = "No one can imitate my technique with the sword. You may look like me, but your technique is not even close."
+
+;Jubei Yagyu
+victory26 = "Your fighting spirit always gives me goosebumps, Master Jubei. My skills have improved since last time, haven't they?"
+
+;Kazuki Kazama
+victory27 = "Woohoo! This is my kind of fight! ...Oops, and now my hair's on fire!"
+
+;Kyoshiro Senryo
+victory28 = "You dance around with more skill than before, don't you, Kyoshiro? But your swordplay is nowhere near my level yet!"
+
+;Mr. Karate II
+victory29 = "Tradition's a heavy load. One I'll never bear."
+
+;Nakoruru
+victory30 = "Whoa, you can control the falcon at will? No matter. It's still not enough to defeat me!"
+
+;Rimururu
+victory31 = "You're still raw. Give it several more decades, and you might get somewhere. D-Damn, it sure is cold out here though!"
+
+;Ruixiang
+victory32 = "Your techinique is strange... It reminds me of that old man. I wonder how he's doing."
+
+;Shiki
+victory33 = "An ambush! That was a close one... Are you an assassin? Who sent you? I guess someone has a bone to pick."
+
+;Shizumaru Hisame
+victory34 = "Huh... I can see a devil in your eyes. Better tame it if you don't want start a bloodbath... or unleash Hell itself."
+
+;Sogetsu Kazama
+victory35 = "You can't tell how powerful your opponent is just by looking. You have to actually cross swords with them first."
+
+;Tam Tam
+victory36 = "I'd heard about rumors about foreign swordsmen... I enjoyed finally getting a chance to test my skills against you."
+
+;Ukyo Tachibana
+victory37 = "You've got quite the impressive technique. But it'll take more than practicing your forms to beat me!"
+
+;Wan-Fu
+victory38 = "If you're the best on your continent, that makes me the best in the world!"
+
+;Yashamaru
+victory39 = "You've got the muscles, but your moves are still stiff. It's almost as if your sword is swinging you around."
+
+;Yoshitora Tokugawa
+victory40 = "To think, that we would come to blows... Although, it's another chance for me to witness your unique techinique!"
+
+
+
+;====================<RASETSUMARU WINQUOTES>====================
+victory41 = "Yeeeah! Broke you down!"
+victory42 = "You've got guts!"
+victory43 = "I'll perfectly beat you down next time."
+victory44 = "Beg for mercy"
+victory45 = "Don't die yet it's boring!"
+victory46 = "Suffer more, for my entertainment."
+victory47 = "OK, I came to get down, I came to get down, so get on your feet..."

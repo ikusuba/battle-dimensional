@@ -1,0 +1,58 @@
+; ________________________________________________
+;| Haohmaru by KarmaCharmeleon		|
+; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+;====================<DEFINITION>====================
+[Info]
+name        = "Haohmaru"
+displayName = "Haohmaru"
+versionDate = 04,12,2021
+mugenVersion= 1.0
+ikemenversion = 0.98.2
+author      = "KarmaCharmeleon"
+pal.defaults= 1,2,3,4,5,6,7,8,9,10,11,12
+localCoord  = 320,240
+
+[Files]
+cmd     = Command.cmd
+cns     = Constants.cns
+st      = States/System.st
+st1     = States/Normal.st
+st2     = States/Special.st
+st3     = States/Super.st
+st4     = States/Helpers.st
+st5     = States/NormalHaohmaru.st
+st6     = Config.txt
+stCommon= common1.cns
+sprite  = Sprite.sff
+anim    = Anim.air
+sound   = Sound.snd
+pal1	= Palettes/Default.act
+pal2	= Palettes/sabockee_GoldenBlade.act
+pal3	= Palettes/sabockee_ClassicYellow.act
+pal4	= Palettes/sabockee_ClassicRed.act
+pal5	= Palettes/Knuckles8864_SamShoVIColor5.act
+pal6	= Palettes/Knuckles8864_SamuraiJack.act
+pal7	= Palettes/sabockee_WarriorsRage.act
+pal8	= Palettes/sabockee_Custom1.act
+pal9	= Palettes/sabockee_Custom6.act
+pal10	= Palettes/JtheSaltyy_Stone.act
+pal11	= Palettes/Knuckles8864_StriderHiryu.act
+pal12	= Palettes/sabockee_Custom6.act
+
+[Palette Keymap]
+a = 4
+b = 5
+c = 6
+x = 1
+y = 2
+z = 3
+a2 = 10
+b2 = 11
+c2 = 12
+x2 = 7
+y2 = 8
+z2 = 9
+
+;[Arcade]
+;intro.storyBoard = intro.def
+;ending.storyBoard = ending.def

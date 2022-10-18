@@ -1,0 +1,32 @@
+;========================<RAGE METER CUSTOMIZATION>=============================
+[StateDef 7650]
+physics = N
+velSet = 0,0
+anim = 1
+
+;==============================================================================================
+;ONLY MODIFY STUFF BELOW THIS LINE
+;==============================================================================================
+
+[State 7650, Rage Meter (0 = Off || 1 = On)]
+type = ParentVarSet
+trigger1 = 1
+var(50) = 1 ;CHANGE THIS LINE
+
+[State 5900, Rage Meter X axis (+ = Right || - = Left)]
+type = ParentVarSet
+trigger1 = 1
+var(51) = 0 ;CHANGE THIS LINE
+
+[State 5900, Rage Meter Y axis (+ = Up || - = Down)]
+type = ParentVarSet
+trigger1 = 1
+var(52) = 0 ;CHANGE THIS LINE
+
+;==============================================================================================
+;ONLY MODIFY STUFF ABOVE THIS LINE
+;==============================================================================================
+
+[State 7650, End]
+type = DestroySelf
+trigger1 = RoundState = 2

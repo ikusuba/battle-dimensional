@@ -1,0 +1,58 @@
+
+[Info]
+name ="Sie Kensou"
+displayname ="Sie Kensou"
+lifebarname ="Kensou"
+versiondate =07,18,2016
+mugenversion =1.0
+ikemenversion = 0.98.2
+author ="ReixSeiryu"
+pal.defaults =1,2,3,4,5,6
+localcoord   = 320, 240
+
+[Files]
+sprite =Kensou.sff
+anim =Kensou.air
+sound =Kensou.snd
+cmd =Kensou.cmd
+cns =Constants.cns
+stcommon =common1.cns
+st =States\System.cns
+st1=States\Normal.cns
+st2=States\Specials.cns
+st3=States\Supers.cns
+st4=States\Helpers.cns
+st5=States\Customs.cns
+st6=config.txt
+st7=interaction.cns
+
+pal1    = palettes/Kensou_005.act
+pal2    = palettes/Kensou_002.act
+pal3    = palettes/Kensou_003.act
+pal4    = palettes/Kensou_004.act
+pal5    = palettes/Kensou_001.act
+pal6    = palettes/Kensou_006.act
+pal7    = palettes/Kensou_007.act
+pal8    = palettes/Kensou_008.act
+pal9    = palettes/Kensou_009.act
+pal10   = palettes/Kensou_0010.act
+pal11   = palettes/Kensou_0011.act
+pal12   = palettes/Kensou_0012.act
+
+[Palette Keymap]
+x  = 1
+y  = 2
+z  = 3
+a  = 4
+b  = 5
+c  = 6
+a2 = 7
+b2 = 8
+c2 = 9
+x2 = 10
+y2 = 11
+z2 = 12
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

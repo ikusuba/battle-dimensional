@@ -1,0 +1,208 @@
+;====================<VARIABLE LIST>====================
+
+;var(3)  : Jump Type (0 = Normal; 1 = Low Jump; 2 = Long Low Jump; 3 = Long Jump)
+;var(4)  : Chain Combo (0 = Off; 1 = On)
+;var(5)  : Command Cancel Flag
+;var(6)  : Cancel Flag
+;var(7)  : Super Cancel Flag
+;var(8)  : Hyper Cancel Flag
+;var(9)  : Counter Flag
+;var(10) : Button Detect (0 = Light; 1 = Medium; 2 = Heavy)
+;var(11) : Kaiser Wave Strength Detect (0 = Light; 1 = Medium; 2 = Heavy)
+;var(12) : EX Dark Barrier Juggle Flag (0 = Can't juggle; 1 = Can juggle)
+;var(13) : Hit Count
+;var(14) : MoveContact Tracker
+;var(15) : Juggle Points
+;var(16) : Juggle Flag
+;var(17) : Ticks UnGuardable
+;var(18) : ProjContact (0 = No; 1 = Yes)
+;var(19) : Throw Escape
+;var(20) : Custom Combo Time
+;var(21) : Super Cancel Flag
+;var(22) : Hyper Cancel Flag
+;var(23) : Super Finish Type (900 = Custom Combo; 3000 = Genocide Heaven; 3100 = Gigantic Pressure; 3200 = Dead End Screamer; 3300 = Destruction Omega; 3400 = Rugal Execution; 3600 = Kaiser Phoenix; 3700 = G-End; 3800 = Last Judgement)
+;var(24) : God Kaiser Wave Secondary Strength
+;var(25) : Ticks to Apply EX FX
+;var(26) : Ticks Unable to Walk
+;var(27) : Vanishing Rush Juggle Flag (0 = Can't juggle; 1 = Can juggle)
+;var(28) : Beads Destruction Juggle Flag (0 = Can't juggle; 1 = Can juggle)
+;var(29) : 
+;var(30) : Hit Detection
+;var(31) : Hit Sound (0 = Light Punch; 1 = Medium Punch; 2 = Heavy Punch; 3 = Light Kick; 4 = Medium Kick; 5 = Heavy Kick; 6 = Projectile Hit; 800 = Grab)
+;var(32) : Guard Sound
+;var(33) : Hit Spark (8010 = Light; 8011 = Medium; 8012 = Heavy; 8013 = Special; 8014 = Super)
+;var(34) : Guard Spark (8000 = Normal; 8001 = Special)
+;var(35) : Spark xPos
+;var(36) : Spark yPos
+;var(37) : Special/Super Throws (0 = Allowed; 1 = Not Allowed)
+;var(38) : Throw (0 = Allowed; 1 = Not Allowed)
+;var(39) : Projectile Flag (0 = Off; 1 = On)
+;var(40) : Mode (0 = Normal; 1 = Omega Rugal; 2 = God Rugal)
+;var(41) : KO Sound
+;var(42) : 
+;var(43) : Player ID to apply electric sparks to
+;var(44) : Electric particles timer
+
+;var(58) : Game Time
+
+;fvar(5) : Amount of Corner Push
+;fvar(10): Damage Dampener
+;fvar(11): Damage Dampener with Counter Multiplier Added
+
+
+
+; _________________________________________________
+;| Rugal Bernstein by KarmaCharmeleon		 |
+; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+;====================<CONSTANTS>====================
+[Data]
+life = 1064
+power = 3000
+attack = 100
+defence = 100
+fall.defence_up = 50
+lieDown.time = 30
+airJuggle = 15
+sparkNo = s8010
+guard.sparkNo = s8000
+KO.echo = 0
+volume = 128
+IntPersistIndex = 0
+FloatPersistIndex = 0
+
+[Size]
+xScale = 1
+yScale = 1
+ground.back = 18
+ground.front = 18
+air.back = 18
+air.front = 18
+height = 60
+attack.dist = 160
+proj.attack.dist = 90
+proj.doScale = 0
+head.pos = -13, -117
+mid.pos = -3, -84
+shadowOffset = 0
+draw.offset = 0,0
+
+[Velocity]
+walk.fwd = 3.49162011173
+walk.back = -2.65363128492
+run.fwd = 5.93575418994,0
+run.back = -6.14525139665,-3.125
+jump.neu = 0, -8.75
+jump.fwd = 3.91061452514
+jump.back = -4.46927374302
+runJump.fwd = 5.86592178771,-10.0624847412
+runJump.back = -6.70391061453,-10.0624847412
+airjump.neu = 0,-6.5
+airjump.back = -2.8
+airjump.fwd = 2.8
+
+[Movement]
+airJump.num = 0
+airJump.height = 0
+yAccel = 0.4638671875
+stand.friction = 0.85
+crouch.friction = 0.82
+stand.friction.threshold = 1.0
+crouch.friction.threshold = 1.0
+air.gethit.groundLevel = 25
+air.gethit.groundRecover.ground.threshold = -20
+air.gethit.groundRecover.groundLevel = 10
+air.gethit.airRecover.threshold = -1
+air.gethit.airRecover.yAccel = 0.35
+air.gethit.trip.groundLevel = 15
+down.bounce.offset = 0, 20
+down.bounce.yAccel = 0.4
+down.bounce.groundLevel = 12
+down.friction.threshold = 0.5
+
+
+;====================<WINQUOTES>====================
+[Quotes]
+
+
+
+;====================<RUGAL WINQUOTES>====================
+victory0 = "You never had a chance, blowhard. Good day!"
+victory1 = "I am more than a god! I'm a superstar! Hah, hah!"
+victory2 = "Try again. Next time I'll show you how tough I am."
+victory3 = "Done your packing? Your life's journey's over." 
+victory4 = "Hmm. Hmm. The more mayhem I make. The easier it gets."
+victory5 = "Tomorrow after tomorrow. Procrastination's so soothing."
+victory6 = "A hospital or a cemetery, it is your choice!"
+victory7 = "My moves are superior to other martial arts in all aspects!"
+victory8 = "The curtain of your life is about to fall..."
+victory9 = "That was another luscious symphony of bone-crushing sounds! Ha ha ha!"
+victory10 = "How very unimpressive... You are not qualified to join my collection."
+victory11 = "Ha ha ha! Seeing your desperate yet helpless struggle pleases me!"
+victory12 = "Evil is what keeps life interesting..."
+victory13 = "A brilliant performance..."
+victory14 = "Repeat this after me: I'll never take on a God again."
+
+;Kyo Kusanagi
+victory15 = "I'll exhibit you and your dad!"
+
+;Kyo Kusanagi/Benimaru Nikaido/Goro Daimon
+victory16 = "The light of noon helps one understand night's darkness."
+
+;Heidern
+victory17 = "Your family awaits you!"
+
+;Heidern/Leona Heidern/Ralf Jones/Clark Still
+victory18 = "Heidern, you will make a monkey of me no more!"
+
+;Ryo Sakazaki/Robert Garcia/Takuma Sakazaki/Mr. Karate/Marco Rodriguez/Yuri Sakazaki
+victory19 = "Leave Kyokugenryu to me. Die!"
+victory20 = "Kyokugen Karate... I've surpassed you a long time ago!"
+
+;Yuri Sakazaki/King/Mai Shiranui/May Lee
+victory21 = "You'll be the best statues!"
+victory22 = "Now that's quite an outfit. I'll add it to my collection."
+
+;Terry/Andy/Joe
+victory23 = "Was that all of your power?"
+victory24 = "You call your strength legendary?... Talk about spin!"
+
+;Kim/Chang/Choi
+victory25 = "I found a good addition."
+victory26 = "Evil makes the world go around. Now do you understand that?!"
+
+;Athena Asamiya/Sie Kensou/Chin Gentsai
+victory27 = "Justice has never prospered!" 
+victory28 = "Happiness is but a dream. Pain is the true reality!"
+
+;Iori Yagami/Mature/Vice
+victory29 = "Only the crazy are sane in a crazy, mixed-up world."
+
+;K'/Maxima/Whip
+victory30 = "Act like a guinea pig and be experimented on!"
+
+;Kula/K9999/Angel
+victory31 = "There are those in the world you just can't betray."
+
+;Chris/Shermie/Yashiro
+victory32 = "I'm sorry, but I've long since transcended you."
+
+;Vanessa/Ramon/Seth
+victory33 = "So this is the best you mangy mercenaries can do?"
+
+;Ryuji Yamazaki/Blue Mary/Billy Kane
+victory34 = "All reality is predestined... Even your pathetic fates."
+
+;Heavy-D!/Lucky Glauber/Brian Battler
+victory35 = "You'll be my best collection."
+
+
+
+;====================<GOD RUGAL WINQUOTES>====================
+victory36 = "The darkness and the light... Everything is in my hands now!"
+victory37 = "All living things must kneel before me!"
+victory38 = "All knowledge lies before me now!"
+victory39 = "It's so obvious... All fools should agonize and scream!!!"
+victory40 = "I feel great. I have never been so happy!!"
+victory41 = "Is this the result? Not so bad, but not very good either!"
+victory42 = "I have entered the sanctuary of the martial arts gods!"
+victory43 = "I have mastered the truth. I have become invincible."

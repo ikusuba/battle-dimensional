@@ -1,0 +1,97 @@
+                            __________________________________________
+===========================| Adelheid by Saikou Shiva	              |===========================
+                            ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯ 
+====================================== M O V E L I S T ======================================
+
+ ↑ - up             LP - light punch        LK- light kick
+ ↓ - down           MP - medium punch       MK - medium kick
+ → - forward        HP - heavy punch        HK - heavy kick
+ ← - back           P  - any punch          K  - any kick
+ ↗ - up forward     PP - two punches        KK - two kicks
+ ↘ - down forward
+ ↙ - down back
+ ↖ - up back
+ S - start/taunt
+ c - crouching
+ Cl - close
+
+ (Air) - Move performed in the air.
+ (EX)  - Stronger version of attack. Costs 50% bar of meter and is performed by pressing two punch/kick buttons.
+ (MAX) - Juiced up super that consumes two bars of meter. Use two punch/kick buttons when performing a Super move to power it up.
+
+<NORMALS>
+
+- Zielschlag	       			Cl. HP
+- Steigendes Knie			Cl. LK
+- Ansteigender Tritt			Cl. HK
+
+<COMMAND NORMALS>
+
+- A.Kunst Vier				← + LK (Can be cancelled into after Cl.HP / Cl.LK)
+- A.Kunst Zwei				→ + LK (Can be cancelled into after Cl.HP / Cl.LK)
+
+<THROWS>
+
+- Klauenwurf				← or → + KK / PP
+
+<SPECIALS>
+
+- G.Kicken				↓ ↘ → + K
+- G.Kicken (EX)				↓ ↘ → + KK
+- Rising G.Kicken			↓ ↘ → + K   (During: c.LK / c.MK / Cl.LK / Cl.HP / Cl.HK / A.Kunst Vier / A.Kunst Zwei)
+- Rising G.Kicken (EX)			↓ ↘ → + KK   (During: c.LK / c.MK / Cl.LK / Cl.HP / Cl.HK / A.Kunst Vier / A.Kunst Zwei)
+- G.Drucken				→ ↘ ↓ ↙ ← + P	(Unblockable)
+- G.Drucken (EX)			→ ↘ ↓ ↙ ← + PP
+- G.Zerstorung		 		↓ ↙ ← + K   	
+- G.Zerstorung (EX)	 		↓ ↙ ← + KK
+- G.Wand				↓ ↘ → + P
+- G.Wand (EX)				↓ ↘ → + PP
+- G.Prinzessin				↓ ↘ → + S	(Cancels out recovery animation for all heavy normals, K.Vier, K.Zwein) 
+
+<SUPER>
+
+Lv1 - G.Kreis			        ↓ ↘ → ↓ ↘ → + LK/MK (Cover different angles and distances)
+Lv1 - Sliding G.Kreis		        ↓ ↘ → ↓ ↘ → + HK
+Lv2 - G.Kreis (MAX)		        ↓ ↘ → ↓ ↘ → + KK
+Lv1 - G.Kronprinz			→ ← ↙ ↓ ↘ → + P (Can be charged for a stronger and faster attack)
+
+<Lv3 SUPER>
+
+Lv3 - G.Sklaven (MAX)			↓ ↘ → ↘ ↓ ↙ ← + PP
+
+<SYSTEM>
+.Forward Dash:                  	→ →
+.Run:                        	        → → (HOLD)
+.Backward Dash:                 	← ←
+.Low Jump:                      	tap ↑
+.High Jump:                     	tap ↓, then long press ↑
+.Long Low Jump:                 	tap ↓, then tap ↑            
+.Sidestep:                      	LP + LK
+.Sidestep Attack:            	        P / K 		(after sidestep)
+.Forward Roll:                  	→ + LP+LK
+.Backward Roll:                 	← + LP+LK
+.Parry High:                    	tap →
+.Parry Low:                     	tap ↓
+.Air Parry:                     	tap → 	(Air)
+.Power Charge:                  	hold MP+MK 
+.Zero Counter:                  	← ↙ ↓ + P / K 	(during standing or crouching guard)
+.Special Move Zero Counter:             → + MP+MK 	(during standing or crouching guard)
+.Custom Combo:                  	HP + HK         (Air also)
+.Ground Recovery:                 	LP + LK      	(while falling/near floor)
+.Air Recovery:                 	        LP + LK      	(while falling and allowed) 
+
+=====<Gameplay Notes>=====
+
+COMBO SYSTEM:
+ - Some Normal attacks can be canceled into Special and Super moves
+ - Some Special moves can be canceled into Super moves
+ - Some Lv1 Super moves can be canceled into MAX Super moves
+ - Cancelling a Special, Super move or Custom Combo into a Super move resets the juggle points
+   but also reduces its damage
+
+CUSTOM COMBO:
+ - Removes cancellable attack restrictions and gives you a lot of freedom to combo them
+ - Juggle limit is lifted
+ - You can only use EX Special or Super moves from the point the character starts flashing faster
+   and brighter, and doing so ends Custom Combo
+ - Gives you a short invulnerability window at the start

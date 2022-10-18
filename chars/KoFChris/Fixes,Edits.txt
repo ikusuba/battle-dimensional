@@ -1,0 +1,45 @@
+Regular Chris
+-revamped about 90% of the hitboxes
+-Changed some normals hit timings i thought were a bit to fast
+-hard punch second hit connects up close now
+-changed jump accel
+-crouching medium now does 2 hits like 2k2
+-added missing hitboxes
+-changed slide touch animation
+-fixed getpower on all ex moves 
+-added ex version of shooting dancer
+-added direction change special
+-jumping and landing sounds on some moves
+-added glider stomp
+-fixed getpower on ex moves
+-added dancer step to glider stomp chain
+-Fixed damage on chain slide touch
+-fixed damage on max chain slide touch
+-fixed damage of twister drive
+-changed damage of max twister drive by a little bit
+-Fixed player getting stuck when the lvl 3 misses 
+-changed the damage on the lvl3 made it a little weakeer
+-fixed damage on reverse anchor kick
+-fixed hitsparks that were out of place
+-switched the med kick and strong kick anim
+-Fixed lvl3 grabbing opponent when blocking from combo
+-reduced damage on normals
+-reduced getup from lie down time
+-added some target combos
+-fixed player p2 facing on glider stomp 
+-fixed damage on hunting air 
+-fixed ex hunting air 3rd hit not hitting grounded enemy
+-fixed damage on crouch hp, moved hitspark
+-fixed state 90900 debug error
+-fixed damage on crouch hk
+-fixed ai crouching bug
+-changed the orochi mode power change animation to normal chris anim so the explod allgns 
+perfectly with both
+
+orochi mode
+-fixed Taiyou wo Iru Honoo invalid anim bug
+-added ex version of Taiyou wo Iru Honoo
+-fixed up how Taiyou wo Iru Honoo connects
+-added max versions of all supers
+-fixed super finish not popping up on Daichi no Kurau Gouka
+-changed/fixed more hitboxes added readme

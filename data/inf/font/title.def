@@ -1,0 +1,14 @@
+[info]
+name = "title"
+author = "devon"
+
+[FNT v2]
+fntversion = 2,00
+name = "title"
+
+[Def]
+Type = bitmap
+Size = 0,86
+Spacing = 0,0
+Offset = 0,0
+File = title.sff

@@ -1,0 +1,43 @@
+; Definition file for Kung Fu Girl
+; Contains all the filenames needed for the character
+
+; Player information
+[Info]
+name = "Kung Fu Girl"
+displayname = "Kung Fu Girl"
+versiondate =04,14,2002
+mugenversion =1.0
+ikemenversion = 0.98.2
+author = "DivineWolf"
+pal.defaults = 4,5,6,1,2,3,10,11,12,7,8,9
+
+[Files]
+cmd = DivineKFG.cmd
+cns = Coding/System.cns
+st  = Coding/System.cns
+stcommon = common1.cns
+sprite = DivineKFG.sff
+anim = DivineKFG.air
+sound = DivineKFG.snd
+pal1 = Colors/04.act
+pal2 = Colors/02.act
+pal3 = Colors/03.act
+pal4 = Colors/01.act
+pal5 = Colors/05.act
+pal6 = Colors/06.act
+pal7 = Colors/CVS.act
+pal8 = Colors/CVS2.act
+pal9 = Colors/Custom1.act
+pal10 = Colors/Custom2.act
+pal11 = Colors/Custom3.act
+pal12 = Colors/SF4.act
+st1=Coding/Normal.cns
+st2=Coding/Helpers.cns
+st3=Coding/Specials.cns
+st4=Coding/Supers.cns
+st5=Coding/tinybuffering.txt
+
+[Arcade]
+intro.storyboard  = 
+ending.storyboard = 
+
