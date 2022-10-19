@@ -1,0 +1,49 @@
+<#f0f000>UNIQUE ATTACKS</>
+Stance Change									(hold)^HK
+_!Shinkyaku										^LP
+_!Haishuukyaku									^MP
+_!Haisenkyaku									^HP
+_!Haitengedankyaku								^LK
+_!Reverse Nerichagi								^MK
+Nerichagi										_F_+^HK
+Sakkyaku Nage									[_B/_F]_+^2P
+Rengekikyaku									[_B/_F]_+^2K
+
+<#f0f000>SPECIAL MOVES</>
+Hangetsuzan_EX									_D_DB_B^K
+Hishokyaku_EX									_D_DF_F^K
+_!Ingotokyaku									_DF^K
+Hienzan_EX										(charge)_D_U^K
+_!Tenshozan										_D^K
+Kusajin_EX										_D_U^P
+_!Tenshozan										_D^K
+Ryuseiraku_EX									(charge)_B_F^K
+Hakikyaku_EX									_D_D^K
+_!Stance Change									(hold)^HK
+_!_!Suzumuashi									^LP
+
+<#f0f000>SUPER COMBOS</>
+Hou'oukyaku_MAX									_D_DB_B_DB_F^K
+Hou'outenbukyaku_MAX							(air)_D_DF_F_DF_D_DB_B^K
+Hou'ouhitenkyaku_MAX							_D_DF_F_D_DF_F^K
+
+<#f0f000>LEVEL 3 SUPER COMBOS</>
+Zero Kyori Hou'oukyaku							_D_DB_B_DB_F^2P
+
+<#f0f000>SYSTEM</>
+Forward Dash									_F_F
+_!Run											(hold)_F
+Back Dash										_B_B
+High Jump										_TAP_D_U
+Hop												_TAP_U
+Hyper Hop										_TAP_D_TAP_U
+Parry											_TAP_F/_TAP_D
+Roll											[_B/_F]_+^LK+^LP
+Sidestep										^LK+^LP
+_!Sidestep Attack								^P/^K
+Power Charge									^MK_+^MP
+Custom Combo									(air also)^HK_+^HP
+Guard Cancel High								(while guarding)_F_+^2P
+Guard Cancel Low								(while guarding)_F_+^2K
+Fall Recovery									(when allowed)^P/^K
+Taunt											^S

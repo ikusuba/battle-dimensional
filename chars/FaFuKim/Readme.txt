@@ -1,6 +1,6 @@
                             __________________________________________
 ===========================| Kim Kaphwan by Jmorphman		      |===========================
-                            ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯        [08.11.12]
+                            ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½        [08.11.12]
 
  - Contact:	Jmorphman@aol.com
  - Website:	http://network.mugenguild.com/jmorphman/
@@ -38,7 +38,7 @@
 	.Haisenkyaku				z
 	.Haitengedankyaku			a
 	.Reverse Nerichagi			b
-.Nerichagi				F + c
+.Nerichagi				F, +, c
 	.Stance Change				hold c
 		.Shinkyaku				x
 		.Haishuukyaku				y
