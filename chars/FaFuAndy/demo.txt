@@ -1,0 +1,41 @@
+**1
+run / dash
+
+**2
+hishouken 
+ex hishouken 
+
+**3
+shoryu whiff
+shoryu hit
+
+**4
+rekka into ranbu
+EX rekka into Ex Shoryu
+
+**5
+c.mk, zanieken, followup
+c.mk, zanieken, gekihishouken
+EX zanieken, EX shoryu
+
+**6
+crescent whiff
+crescent, crescent ex
+
+**7
+kuhadan
+kuhadan ex
+kuhadan ex, rekka ex, shoryudan ex
+
+**8
+divekick
+jump med into divekick
+jump med, divekick ex, choreppadan
+
+**9
+max choreppadan
+max gekihishouken
+max ranbu
+
+qcb lv.3
+qcf lv.3

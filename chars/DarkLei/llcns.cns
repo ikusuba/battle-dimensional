@@ -1,0 +1,100 @@
+; __________________________________
+;| Lei-Lei by Phantom.of.the.Server |
+; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+;===================<CONSTANTS>================
+
+[Data]
+life = 950
+power = 3000
+attack = 100
+defence = 100
+dizzypoints = 1000
+guardpoints = 1000
+fall.defence_up = 50
+liedown.time = 20
+airjuggle = 15
+sparkno = s7010
+guard.sparkno = s7000
+KO.echo = 0
+volumescale = 100
+intpersistindex = 0
+floatpersistindex = 0
+
+[Size]
+xscale = 0.833
+yscale = 1
+ground.back = 18
+ground.front = 18
+air.back = 18
+air.front = 18
+height = 48
+attack.dist = 160
+proj.attack.dist = 80
+proj.doscale = 0
+head.pos = -12, -64
+mid.pos = 6, -45
+shadowoffset = 0
+draw.offset = 0, 0
+
+[Velocity]
+walk.fwd = 3.00
+walk.back = -2.75
+run.fwd = 5.6, 0
+run.back = -6, 0
+jump.neu = 0, -7.76
+jump.fwd = 3.93
+jump.back = -4.19
+runjump.fwd = 5.25, -8.92
+runjump.back = -5.75, -8.92
+air.gethit.groundrecover = -8.0, 0
+air.gethit.airrecover.mul = 0, 0
+air.gethit.airrecover.add = 0, -7.55
+air.gethit.airrecover.back = -3.50
+air.gethit.airrecover.fwd = 3.50
+air.gethit.airrecover.up = 0
+air.gethit.airrecover.down = 0
+
+[Movement]
+airjump.num = 0
+airjump.height = 0
+yaccel = 0.469
+stand.friction = 0.85
+crouch.friction = 0.85
+stand.friction.threshold = 1.0
+crouch.friction.threshold = 1.0
+air.gethit.groundlevel = 0
+air.gethit.groundrecover.ground.threshold = -20
+air.gethit.groundrecover.groundlevel = 0
+air.gethit.airrecover.threshold = -1
+air.gethit.airrecover.yaccel = 0.6275
+air.gethit.trip.groundlevel = 0
+down.bounce.offset = 0, 0
+down.bounce.yaccel = 0.5
+down.bounce.groundlevel = 0
+down.friction.threshold = 2.0
+
+[Constants]
+default.attack.lifetopowermul = 0.7
+default.gethit.lifetopowermul = 0.6
+super.targetdefencemul = 1.0
+default.lifetoguardpointsmul = -1.5
+default.lifetodizzypointsmul = 0
+default.lifetoredlifemul = 0.25
+default.ignoredefeatedenemies = 1
+input.pauseonhitpause = 0
+animtagenteringscreen = 5600
+animtagleavingscreen = 5600
+
+[Quotes]
+victory1 = "You knew this would happen. You shouldn't have struggled."
+victory2 = "It's time to change the image of Chinese ghosts."
+victory3 = "Ordinary people could not have done that!"
+victory4 = "Sigh... You feel hungry even after you die..."
+victory5 = "Respect the dead!"
+victory6 = "Use your weapon if you must, this isn't a street fight."
+victory7 = "Sister, we have to cooperate... Hey, are you even listening?"
+victory8 = "You seem to be in high spirits, but are you ok?"
+victory9 = "Don't misunderstand, not all of them are like myself!"
+victory10 = "Have I seen you before? Before I died, maybe?"
+victory11 = "That was too easy. In your next life try defending yourself!"
+victory12 = "I think I lost an iron ball... Can you help me find it?"

@@ -1,0 +1,58 @@
+____________________________________________________________________
+
+Super Moves:
+
+Skull Aura:
+D, DF, F, D, DF, (x, y or z) (AIR)
+
+(x+y) . (y+z) . (x+z) for MAX Version
+
+Ha No Renbu:
+D, DF, F, D, DF, (a, b or c)
+
+(a+b) . (b+c) . (a+b) for MAX Version
+
+Ten No Renbu:
+D, DB, B, D, DB, (a, b or c)
+
+(a+b) . (b+c) . (a+b) for MAX Version
+
+Haten Mueishu: [LvL3]
+
+D, DB, B, D, DB, (x+y) . (y+z) . (x+z)
+
+Team Super: [LvL3]
+
+B, F, B, F, (x+y) . (y+z) . (x+z)
+
+____________________________________________________________________
+
+
+Special Moves:
+
+Gate Elbow:
+D, DF, F, (x, y or z)
+
+(x+y) . (y+z) . (x+z) for EX version
+
+Houbu:
+D, DB, B, (x, y or z)
+
+(x+y) . (y+z) . (x+z) for EX version
+
+Fuugekishuu:
+D, DF, F, (a, b or c)
+
+(a+b) . (b+c) . (a+c) for EX version
+
+Dancing Cyclone Kick:
+D, DB, B, (a, b or c)
+
+(a+b) . (b+c) . (a+c) for EX version
+
+Leg Up:
+F, D, DF, (a, b or c)
+
+(a+b) . (b+c) . (a+c) for EX version
+
+____________________________________________________________________

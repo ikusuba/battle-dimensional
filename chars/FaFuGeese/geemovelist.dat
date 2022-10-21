@@ -1,0 +1,54 @@
+<#f0f000>THROWS</>
+
+Kosetsu Sho							[_B/_F]_+^2P
+Shinku Nage							[_B/_F]_+^2K
+Shinku Nage							(OTG)_D_+^2P
+
+<#f0f000>UNIQUE ATTACKS</>
+
+Fudo Sakkatsu Uraken				_F_+^Z
+Raiko Mawashi Geri					_B_+^C
+
+<#f0f000>SPECIAL MOVES</>
+
+Reppuken_EX							_D_DF_F[^Y/^Z]
+Double Reppuken						_D_DF_F^Z
+Jaeiken_EX							_F_DF_D_DB_B^K
+Hisho Nichirin Zan_EX				_F_D_DF^K
+Shippuken_EX						_D_DB_B^P
+_!Double Shippuken					(after _EX)_D_DB_B^P
+_!Kick								(after _EX)^K
+Atemi Nage_EX						_F_DF_D_DB_B^P
+Fake Reppuken						_D_DF_F^S
+
+<#f0f000>SUPER COMBOS</>
+
+Raising Storm_MAX					_F_DF_D_DB_B_D^P
+Rashomon_MAX						_FUB^K
+Kyoku Reppu Zan_MAX					_D_DF_F_D_DF_F^P
+
+<#f0f000>LEVEL 3 SUPER COMBOS</>
+
+Deadly Rave							_F_DF_D_DB_B_F^2K
+_!Combo								^X,^X,^A,^A,^Y,^B,^Z,^C
+_!Finish							_D_DB_B^P
+Raging Dead End						_D_DB_B_D_DB_B^2P
+
+<#f0f000>SYSTEM</>
+
+Forward Dash					_F_F
+_!Run							(hold)_F
+Back Dash						_B_B
+High Jump						_TAP_D, _U
+Hop								_TAP_U
+Hyper Hop						_TAP_D, _TAP_U
+Parry							_TAP_F / _TAP_D
+Roll							[_B/_F]_+^A+^X
+Sidestep						^A+^X
+_!Sidestep Attack				^P/^K
+Power Charge					^B_+^Y
+Custom Combo					(air also) ^C_+^Z
+Guard Cancel High				(while guarding)_F_+^2P
+Guard Cancel Low				(while guarding)_F_+^2K
+Fall Recovery					(when allowed)^P/^K
+Taunt							^S

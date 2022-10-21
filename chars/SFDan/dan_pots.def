@@ -1,0 +1,62 @@
+; ______________________________
+;| Dan by Phantom.of.the.Server |
+; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+;====================<DEFINITION>====================
+[Info]
+name          = "Dan Hibiki"
+displayname   = "Dan"
+lifebarname   = "Dan"
+versiondate   = 2022
+mugenversion  = 1.1
+ikemenversion = 0.98.2
+author        = "Phantom.of.the.Server"
+pal.defaults  = 1,2,3,4,5,6,7,8,9,10,11,12
+localcoord    = 320, 240
+portraitscale = 1.0
+
+[Files]
+cmd     = dancmd.cmd
+cns     = dancns.cns
+st      = states/dansystem.st
+st1     = states/dannormal.st
+st2     = states/danspecial.st
+st3     = states/dansuper.st
+st4     = states/dantaunt.st
+st5     = states/danhelper.st
+st6     = states/inputs.st
+st7     = CONFIG.txt
+stcommon= common1.cns
+sprite  = dansprite.sff
+anim    = dananim.air
+sound   = dansound.snd
+movelist= danmovelist.dat
+pal1    = palettes/sfa2pink.act
+pal2    = palettes/sfa2orange.act
+pal3    = palettes/sfa2magenta.act
+pal4    = palettes/mshgreen.act
+pal5    = palettes/sfa2yellow.act
+pal6    = palettes/sfa2blue.act
+pal7    = palettes/red.act
+pal8    = palettes/orange.act
+pal9    = palettes/black.act
+pal10   = palettes/ryu.act
+pal11   = palettes/ryo.act
+pal12   = palettes/oyaji.act
+
+[Palette Keymap]
+x = 1
+y = 2
+z = 3
+a = 4
+b = 5
+c = 6
+x2 = 7
+y2 = 8
+z2 = 9
+a2 = 10
+b2 = 11
+c2 = 12
+
+;[Arcade]
+;intro.storyboard = intro.def
+;ending.storyboard = ending.def

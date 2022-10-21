@@ -1,0 +1,12 @@
+Animations                                          ;Animation
+Audio                                               ;Sounds and BGM
+Materials                                           ;Palettes
+Models                                              ;Sprites
+Resources                                           ;Resources folder
+|-- Fonts                                           ;Custom fonts
+|-- Movelist                                        ;Movelist
+|-- Portrait                                        ;Portrait
+Scenes                                              ;Storyboard
+Scripts                                             ;States and Constant
+Core.cmd
+Main.def

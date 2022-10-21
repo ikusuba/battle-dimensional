@@ -1,0 +1,42 @@
+<#f0f000>THROWS</>
+
+Hourei							[_B/_F]_+[^2P/^2K]
+Houten							_AIR[_B/_F]_+^2P
+
+<#f0f000>UNIQUE ATTACKS</>
+
+Rantetsu						_F_+^Y
+Edoga							_F_+^Z
+
+<#f0f000>SPECIAL MOVES</>
+
+Ankiho_EX						_D_DF_F^P
+Henkyoki_EX						(air also)_D_DB_B^P
+Senpubu_EX						(air also)_F_D_DF^P
+Reito_EX						_F_D_DF^K
+Hotengeki						_F_DF_D_DB_B^P
+Zampa_EX						(while opponent is down)_U_+^P
+
+<#f0f000>SUPER COMBOS</>
+
+Chukadan						_B_DB_D_DF_F^2P (Level 1)
+Spirit Roller					_F_DF_D_DB_B^2P (Level 1)
+Chireito						_B_DB_D_DF_F^2K (Level 2)
+Tenraiha						^A,^C,^Y,^Y,_U (Level 3)
+
+<#f0f000>SYSTEM</>
+
+Forward Dash					_F_F
+Back Dash						_B_B
+Air Dash						_AIR_F_F/_B_B
+High Jump						_TAP_D, _U
+Forward Roll					^A+^X
+Back Roll						_B+^A+^X
+Power Charge					^B_+^Y
+Dark Force						^C_+^Z
+_!Cancel						^C_+^Z
+Guard Cancel High				(while guarding)_F_+^2P
+Guard Cancel Low				(while guarding)_F_+^2K
+Fall Recovery					(when allowed)^P/^K
+Retreat							(while down)[_B/_F]_+[^P/^K]
+Taunt							^S

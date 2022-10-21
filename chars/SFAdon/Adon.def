@@ -1,0 +1,44 @@
+; _______________________________________
+;| Adon by Trololo                       |
+; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+;====================<DEFINITION>====================
+
+[Info]
+name="Adon"
+displayName="Adon"
+versionDate=04,02,2017
+mugenVersion=1.0
+author="Trololo" ;Edited By Bahamianking
+pal.defaults=11,7
+localCoord=320,480
+
+[Files]
+cmd=Command.cmd
+cns=Constants.cns
+st=States/System.st
+stCommon=common1.cns
+sprite=Sprite.sff
+anim=Anim.air
+sound=SoundUSA.snd
+
+pal1=Palettes/Default.act
+pal2=Palettes/White_Sabockee.act
+pal3=Palettes/RajaaAdon_Ness.act
+pal4=Palettes/JoeHigashi.act
+pal5=Palettes/HwaJai_Ness.act
+pal6=Palettes/Bruce_Ness.act
+pal7=Palettes/Candy_Sabockee.act
+pal8=Palettes/Demolition_Sabockee.act
+pal9=Palettes/Chop_Sabockee.act
+pal10=Palettes/Sagat_Ness.act
+pal11=Palettes/SSF410_SpazMaster.act
+pal12=Palettes/Freaky_Sabockee.act
+
+st1=States/Normal.st
+st2=States/Special.st
+st3=States/Super.st
+st4=States/Helpers.st
+	
+[Arcade]
+intro.storyBoard=
+ending.storyBoard=

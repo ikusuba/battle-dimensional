@@ -1,0 +1,43 @@
+; Definition file for Kung Fu Man
+; Contains all the filenames needed for the character
+
+; Player information
+[Info]
+name ="CFJ_Abel"
+displayname ="Abel"
+versiondate =10,06,2015
+mugenversion =04,14,2002
+author ="chuchoryu"
+pal.defaults =6,3,4,2
+
+; Files for the player
+[Files]
+cmd     =CFJ_Abel.cmd
+cns     =Coding/System.cns
+st      =Coding/System.cns
+stcommon =common1.cns
+sprite  =Abel.sff
+anim    =CFJ_Abel.air
+sound   =CFJ_AbelENG.snd
+pal1=001CVS.act
+pal2=Abel02.act
+pal3=Abel03.act
+pal4=Abel04.act
+pal5=Abel05.act
+pal6=Abel06.act
+pal7=Abel07.act
+pal8=Abel08.act
+pal9=Abel09.act
+pal10=Abel10.act
+pal11=
+pal12=
+st1=Coding/Normal.cns
+st2=Coding/Specials.cns
+st3=Coding/Helpers.cns
+st4=Coding/Supers.cns
+
+; Arcade mode
+[Arcade]
+intro.storyboard =
+ending.storyboard =
+

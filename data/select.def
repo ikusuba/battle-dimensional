@@ -186,10 +186,15 @@
  ;
  ;Insert your characters below.
 
+SFAbel/CFJ_Abel.def
+;FiFiAbigail/CFJ_Abigail.def
 slot = {
 KoFAdel/Adelheid.def, next=d, previous=w
 KoFAdel/Adelheid_ex.def, next=d, previous=w
 }
+SFAdon/Adon.def
+RSAkira/Akira.def
+FaFuAndy/Andy.def
 PSAthena/Athena.def
 KoFBenimaru/Benimaru.def
 SFBlanka/Blanka.def
@@ -207,8 +212,11 @@ SFChunli/NormalChun-Li.def, next=d, previous=w
 SFChunli/ShadowLady.def, next=d, previous=w
 }
 MSClark/Clark.def
+SFDan/dan_pots.def
 SFDhalsim/Dhalsim.def
+FaFuGeese/geese_pots.def
 SFGuile/Guile.def
+FiFiGuy/guy_pots.def
 SFHonda/honda_pots.def
 slot = {
 SSHaohmaru/NormalHaohmaru.def, next=d, previous=w
@@ -217,7 +225,10 @@ SSHaohmaru/Rasetsumaru.def, next=d, previous=w
 KoFIori/IoriCVS_FDR.def
 TekJin/Jin.def
 FaFuJoe/Main.def
+SFJuri/Juri.def
 KoFK/Kdash.def
+SFKarin/karin_pots.def
+AoFKasumi/KasumiCVS_FDR.def
 TekKazuya/Kazuya.def
 slot = {
 SFKen/NormalKen.def, next=d, previous=w
@@ -227,6 +238,7 @@ SFKen/SFIIIKen.def, next=d, previous=w
 }
 FaFuKim/Main.def
 AoFKing/Main.def
+TekKing/CvS_KingTag.def
 KoFKula/KulaDiamondMC2.def
 Kfg/DivineKFG.def
 Kfm/DivineKFM.def, stages/kfm.def
@@ -235,7 +247,10 @@ KoFKyo/NormalKyo.def, next=d, previous=w
 KoFKyo/EXKyo.def.def, next=d, previous=w
 KoFKyo/Kusanagi.def, next=d, previous=w
 }
+DarkLei/lei-lei_pots.def
+KoFLeona/Leona.def
 FaFuMai/DivineMai.def
+KoFMaxima/MaximaCVS_FDR.def
 FiFiPoison/DivinePoison.def
 MSRalf/Ralf.def
 AoFRobert/Main.def

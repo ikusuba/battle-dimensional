@@ -1,0 +1,4 @@
+open "Akira Alternate Super Motions" rar and place those files in character folder
+if you want the classic super motions instead of "down, down forward, forward, down, down forward," motions
+
+The air combos is updated to work better

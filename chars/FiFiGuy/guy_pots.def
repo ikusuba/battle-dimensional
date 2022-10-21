@@ -1,0 +1,61 @@
+; ______________________________
+;| Guy by Phantom.of.the.Server |
+; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+;====================<DEFINITION>====================
+[Info]
+name          = "Guy"
+displayname   = "Guy"
+lifebarname   = "Guy"
+versiondate   = 2022
+mugenversion  = 1.1
+ikemenversion = 0.98.2
+author        = "Phantom.of.the.Server"
+pal.defaults  = 1,2,3,4,5,6,7,8,9,10,11,12
+localcoord    = 320,240
+portraitscale = 1.0
+
+[Files]
+cmd     = guycmd.cmd
+cns     = guycns.cns
+st      = states/guysystem.st
+st1     = states/guynormal.st
+st2     = states/guyspecial.st
+st3     = states/guysuper.st
+st4     = states/guyhelper.st
+st5     = states/inputs.st
+st6     = CONFIG.txt
+stcommon= common1.cns
+sprite  = guysprite.sff
+anim    = guyanim.air
+sound   = guysound.snd
+movelist= guymovelist.dat
+pal1    = palettes/default.act
+pal2    = palettes/sfa3white.act
+pal3    = palettes/sfa2magenta.act
+pal4    = palettes/sfa3purple.act
+pal5    = palettes/sfa3green.act
+pal6    = palettes/sfa2violet.act
+pal7    = palettes/sfa3brown.act
+pal8    = palettes/sf4lightblue.act
+pal9    = palettes/strider.act
+pal10   = palettes/ff1.act
+pal11   = palettes/ff3.act
+pal12   = palettes/zeku.act
+
+[Palette Keymap]
+x = 1
+y = 2
+z = 3
+a = 4
+b = 5
+c = 6
+x2 = 7
+y2 = 8
+z2 = 9
+a2 = 10
+b2 = 11
+c2 = 12
+
+;[Arcade]
+;intro.storyboard = intro.def
+;ending.storyboard = ending.def

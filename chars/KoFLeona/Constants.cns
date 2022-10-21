@@ -1,0 +1,153 @@
+
+;---------------------- Integer variable list ----------------------
+;var(0):= Hyper Finish Text Selector
+;var(3):= Jump
+;var(4):= Normal Cancel
+;var(5):= Special Cancel
+;var(6):= Super Cancel
+;var(7):= Max Cancel
+;var(8):= Helper Contact Target
+;var(9):= Counter Flag
+;var(10):= Move Var
+;var(11):= Helper Var
+;var(12):= Enemy Hit Var
+;var(13):= Hit count
+;var(15):= Juggle Points
+;var(16):= Juggle Flag
+;var(17):= Unguardable
+;var(18):= Helper Projcontact
+;var(19):= Throw Escape
+;var(20):= Custom Combo Time
+;var(21):= Super Cancel Flag
+;var(22):= Hyper Cancel Flag
+;var(23):= Super Finish Type
+;var(25):= Ticks to Apply EX FX
+;var(26):= Palette Select
+;var(27):= Palette Selector (on/off)
+;var(29):= Palette Selector Timer
+;var(30):= Hit Detection
+;var(33):= Hit SparkNo
+;var(34):= Guard SparkNo
+;var(35):= Spark X Axis
+;var(36):= Spark Y Axis
+;var(38):= Throws (0 = Allowed/1 = Not Allowed)
+;var(43):= Hit Sparks Selector
+;var(44):= Hit Sounds Selector
+;var(55):= Combo Style Selector
+
+;---------------------- Float variable list ----------------------
+;fvar(5):= Corner Push
+;fvar(8):= Down Juggle Points
+;fvar(9):= Ctrl Flag
+;fvar(10):= Damage Scale (Dampener)
+;fvar(11):= Damage Scale Backup
+;fvar(12):= Enemy In Hit State
+;fvar(13):= Attack Level
+;fvar(17):= Hitspark Helper Var
+;fvar(18):= Hitspark Helper Var
+;---------------------- Sound Channel list ----------------------
+;Channel=0 := Voice
+;Channel=1 := Dust Sound FX's
+;Channel=5 := Movement Sound FX's
+;Channel=22 := Wall Hit Sound FX
+
+;======================================================================================
+;Constants
+;======================================================================================
+[Data]
+life = 950			
+attack = 100		
+defence = 100		
+fall.defence_up = 50	
+liedown.time = 50		
+airjuggle = 0		
+sparkno = s8010			
+guard.sparkno = s8000	
+KO.echo = 0			
+volumescale = 100			
+IntPersistIndex = 0	
+FloatPersistIndex = 0 
+
+[Size]
+xscale = 0.9222
+yscale = 0.9222
+ground.back = 25
+ground.front = 25
+air.back = 18
+air.front = 18
+height = 60
+attack.dist = 160
+proj.attack.dist = 90
+proj.doscale = 0
+head.pos = -5, -86
+mid.pos = 0, -60
+shadowoffset = 0
+draw.offset = 0, 0
+
+[Velocity]
+walk.fwd  = 2.5		
+walk.back = -2.9		
+run.fwd  = 6, 0		
+run.back = -6,-3.8	
+jump.neu = 0, -10.209375
+jump.back = -3.55
+jump.fwd = 3.5     
+runjump.back =  -2.55, -11.974
+runjump.fwd = 4,-11.974 
+
+[Movement]
+airJump.num = 0
+airJump.height = 0
+yaccel = 0.5275
+stand.friction = 0.85
+crouch.friction = 0.82
+stand.friction.threshold = 1.0
+crouch.friction.threshold = 1.0
+air.gethit.groundLevel = 25
+air.gethit.groundRecover.ground.threshold = -20
+air.gethit.groundRecover.groundLevel = 10
+air.gethit.airRecover.threshold = -1
+air.gethit.airRecover.yAccel = 0.35
+air.gethit.trip.groundLevel = 15
+down.bounce.offset = 0, 20
+down.bounce.yAccel = 0.4
+down.bounce.groundLevel = 12
+down.friction.threshold = 0.5
+
+[Quotes]
+victory1 = "Oh, lighten up, you wimp. It's just a fight!"
+victory2 = "You need help. There's no way you're going to win!"
+victory3 = "Consider yourself lucky to be alive. Pick up your liver and go!"
+victory4 = "Have you had enough? Then beat it, fool!"
+victory5 = "Why did you do it? You never had a chance."
+victory6 = "Bye, bye, baby. Game over."
+victory7 = "Don't feel bad. This is just my job."
+victory8 = "What a novice. Butch up, you punk!"
+victory9 = "You should've expected that. I know I did."
+victory10 = "I'm always the winner. You should've known that."
+victory11 = "Now, get out of here...if you want to live."
+victory12 = "To fight is to win...or lose. That's it. ...Wait a minute...."
+victory13 = "Oh, stop whimpering. A wound like that won't kill you."
+victory14 = "Ground-to-ground, anti-air...I'm a human missile defense system."
+victory15 = "I'm warning you...stand up again, and...."
+victory16 = "This is only a scratch. My mission continues...."
+victory17 = "Now, stay still. Move, and your wounds will open up."
+victory18 = "Stop cowering. I'm through with you."
+victory19 = "You need more training. That's all I've got to say."
+victory20 = "... ..."
+victory21 = "Disappointed? Then work out."
+victory22 = "Had enough? Good. You lose."
+victory23 = "Resistance... is just dumb."
+victory24 = "Whew. That was refreshing."
+victory25 = "Worry about the future, and you lose big today."
+;==
+victory30 = "A bloodless battle on my side. That suits me fine."
+;==
+victory40 = "I know how to overcome myself. This removes all doubt."
+victory41 = "British special forces, huh. You weren't too bad. But I'm better."
+victory42 = "That hairstyle and that attitude...you're not fit for military. Go home and be a family man."
+victory43 = "Guess Air Force jockeys can put up a good fight after all."
+victory44 = "Your genuine power would make you kind of cute...if you weren't so large."
+victory45 = "Those empty eyes...I hate to say it, but they remind me of my own."
+victory46 = "Now back to my mission...you'll back me up, right?"
+victory47 = "I've mastered assasssination. My mission continues, sir."

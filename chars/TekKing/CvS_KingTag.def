@@ -1,0 +1,35 @@
+[Info]
+name ="CvS_KingTag"
+displayname ="King"
+versiondate =02,08,2011
+mugenversion=06,14,2003
+author ="chuchoryu"
+pal.defaults =1
+
+[Files]
+cmd     =King.cmd
+cns     =King.cns
+st      =King.cns
+stcommon=common1.cns
+sprite  =King.sff
+anim    =King.air
+sound   =King.snd
+pal1=King01.act
+pal2=King02.act
+pal3=King03.act
+pal4=King04.act
+pal5=King05.act
+pal6=King06.act
+pal7=
+pal8=
+pal9=
+pal10=
+pal11=
+pal12=
+st1=King.st
+st2=
+
+[Arcade]
+intro.storyboard =
+ending.storyboard =
+
