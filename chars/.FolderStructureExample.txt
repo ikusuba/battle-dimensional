@@ -1,12 +1,19 @@
-Animations                                          ;Animation
+Animations                                          ;Animations
+|- Anim.air
 Audio                                               ;Sounds and BGM
-Materials                                           ;Palettes
-Models                                              ;Sprites
+|- Sounds.snd
+Models                                              ;Character Models
+|- Sprites                                          ;Character Sprites
+|- Textures                                         ;Sprite Palettes
 Resources                                           ;Resources folder
-|-- Fonts                                           ;Custom fonts
-|-- Movelist                                        ;Movelist
-|-- Portrait                                        ;Portrait
-Scenes                                              ;Storyboard
+|- Fonts                                            ;Custom fonts
+|-- FontName.ttf                                    ;TTF or OTF only
+|- Movelist                                         ;Movelist
+|-- ModeName.dat                                    ;Example Naming (Main.dat)
+|- Portrait                                         ;Portrait
+|-- ModeName-9000,0.png
+|- Scenes                                           ;Storyboard
 Scripts                                             ;States and Constant
 Core.cmd
 Main.def
+Readme.mode                                         ;Should be change to markdown
