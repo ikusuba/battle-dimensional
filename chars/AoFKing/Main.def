@@ -1,7 +1,3 @@
-; _______________________________________________
-;| King by Jmorphman Edited by Aiku				|
-; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;====================<DEFINITION>====================
 [Info]
 name        	= "King"
 displayName 	= "King"
@@ -15,43 +11,43 @@ localCoord  	= 320,240
 
 [Files]
 anim    = Animations/Anim.air
-movelist= Movelists/Default.dat
-sound   = Sounds/Sound.snd
-sprite  = Sprites/Default.sff
+movelist= Resources/Movelists/Default.dat
+sound   = Audio/Sound.snd
+sprite  = Models/Sprites/Default.sff
 cmd     = Core.cmd
-cns     = States/Constants.cns
+cns     = Scripts/Constants.cns
 stCommon= common1.cns
-st      = States/System.st
-st1     = States/Normal.st
-st2     = States/Special.st
-st3     = States/Super.st
-st4     = States/Helpers.st
-pal1	= Palettes/Default.act
-pal2	= Palettes/KOF2000.act
-pal3	= Palettes/sabockee_White&Teal.act
-pal4	= Palettes/1.8.7_KOFXIIIish.act
-pal5	= Palettes/Gogngos_CreamVest.act
-pal6	= Palettes/ShiyoKakuge_Black&Grey.act
-pal7	= Palettes/davismaximus_TheRiddler.act
-pal8	= Palettes/Gogngos_SerpentVenom.act
-pal9	= Palettes/NDSilva_Black&White.act
-pal10	= Palettes/ShiyoKakuge_USA.act
-pal11	= Palettes/SpazMaster_CrownJewel.act
-pal12	= Palettes/Guileman_DocScratch.act
+st      = Scripts/System.st
+st1     = Scripts/Normal.st
+st2     = Scripts/Special.st
+st3     = Scripts/Super.st
+st4     = Scripts/Helpers.st
+pal1	= Models/Textures/Default.act
+pal2	= Models/Textures/KOF2000.act
+pal3	= Models/Textures/sabockee_White&Teal.act
+pal4	= Models/Textures/1.8.7_KOFXIIIish.act
+pal5	= Models/Textures/Gogngos_CreamVest.act
+pal6	= Models/Textures/ShiyoKakuge_Black&Grey.act
+pal7	= Models/Textures/davismaximus_TheRiddler.act
+pal8	= Models/Textures/Gogngos_SerpentVenom.act
+pal9	= Models/Textures/NDSilva_Black&White.act
+pal10	= Models/Textures/ShiyoKakuge_USA.act
+pal11	= Models/Textures/SpazMaster_CrownJewel.act
+pal12	= Models/Textures/Guileman_DocScratch.act
 
 [Palette Keymap]
-a = 4
-b = 5
-c = 6
 x = 1
 y = 2
 z = 3
-a2 = 10
-b2 = 11
-c2 = 12
+a = 4
+b = 5
+c = 6
 x2 = 7
 y2 = 8
 z2 = 9
+a2 = 10
+b2 = 11
+c2 = 12
 
 ;[Arcade]
 ;intro.storyBoard = intro.def
