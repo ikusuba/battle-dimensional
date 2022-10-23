@@ -18,35 +18,35 @@ def main():
                 x = "^LK"
                 print(x, end="")
 
-            elif x in cmd_mk:
+            if x in cmd_mk:
                 x = "^MK"
                 print(x, end="")
             
-            elif x in cmd_hk:
+            if x in cmd_hk:
                 x = "^HK"
                 print(x, end="")
 
-            elif x in cmd_lp:
+            if x in cmd_lp:
                 x = "^LP"
                 print(x, end="")
 
-            elif x in cmd_mp:
+            if x in cmd_mp:
                 x = "^MP"
                 print(x, end="")
 
-            elif x in cmd_hp:
+            if x in cmd_hp:
                 x = "^HP"
                 print(x, end="")
 
-            elif x in cmd_a:
+            if x in cmd_a:
                 x = "^" + x
                 print(x.upper(), end="")
             
-            elif x in cmd_b:
+            if x in cmd_b:
                 x = "_" + x
                 print(x.upper(), end="")
 
-            elif x == "/":
+            if x == "/":
                 x = " / "
                 print(x, end="")
 main()
